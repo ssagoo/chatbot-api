@@ -6,10 +6,8 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## API Regression tool
+## ChatBOT API requester
 
 ```
-python regression_webapi.py -a api-url:5000
-
-
+python .\chatbot_main.py -p 8080 -t "localhost"
 ```
