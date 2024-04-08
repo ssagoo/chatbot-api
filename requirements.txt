@@ -1,0 +1,10 @@
+pika
+polars
+pytest
+requests
+requests_negotiate_sspi
+pandas
+
+fastapi
+re_edge_gpt
+uvicorn
