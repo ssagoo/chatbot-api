@@ -1,0 +1,15 @@
+{
+  "name": "ChatBotAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ssagoo/chatbot-api.git",
+  "author": "ssagoo <sukhdav.sagoo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "devDependencies": {
+    "vercel": "^33.7.0"
+  }
+}

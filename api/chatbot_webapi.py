@@ -15,7 +15,7 @@ class ChatBotAPI:
         self.router.add_api_route(f"/{name}/ask-question", self.get_response, methods=["GET"])
 
     async def send_request(self, question):
-        cookies = json.loads(open(str(Path(str(Path.cwd()) + "/bing-cookies.txt")), encoding="utf-8").read())
+        cookies = json.loads(open(str(Path(str(Path.cwd()) + "./bing-cookies.txt")), encoding="utf-8").read())
         bot = await Chatbot.create(cookies=cookies)
 
         response = await bot.ask(prompt=question, conversation_style=ConversationStyle.creative,
