@@ -9,5 +9,5 @@ pip install -r requirements.txt
 ## ChatBOT API requester
 
 ```
-python .\chatbot_main.py -p 8080 -t "localhost"
+python .\api\chatbot_main.py -p 8080 -t "localhost"
 ```
